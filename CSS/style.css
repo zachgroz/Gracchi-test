@@ -1,10 +1,132 @@
 p.content {
+	padding-right: 100px;
+	font-size: 64px;
+	font-weight: bold;
+	text-align: center;
+	background: red;
+	color: black;
+	font-family: Bookman;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+p.content {
 	padding: 45px;
 	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
-	background: gray;
-	font-style: italic;
-	color: white;
-	border: 1px solid black;
+	color: black;
+	font-family: Georgia;
+	text-transform: uppercase;
 }
+li a{
+    list-style-type: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	font-family: Georgia;
+	text-transform: uppercase;
+	width: 120px;
+	margin-left: 110px;
+	display: inline-block;
+	padding: 0;
+}
+ul{
+	width: 100%;
+	background-color: black;
+}
+ul.nav a:hover { 
+	color: white;
+	background-color: red !important; 
+}
+ul.nav a:focus{
+	color: white;
+	background-color: red !important;
+}
+p.navbar-text{
+	font-family: Garamond, Georgia, serif;;
+	font-style: italic;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 64px;
+	font-weight: bold;
+	justify-content: center;
+	display: inline-block;
+	text-align: center;
+	margin-left: 500px;
+}
+.navbar{
+	text-align: center;
+	display: inline-block;
+	background-color: red;
+	border-bottom-color: black; 
+}
+.container{
+	margin-top: 200px;
+}
+p.content1{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-family: Georgia;
+	text-transform: uppercase;
+	margin-left: 200px;
+	background: red;
+	padding: 45px;
+}
+p.content2{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-family: Georgia;
+	text-transform: uppercase;
+	margin-right: 200px;
+	background: red;
+	padding: 45px;
+}
+a.title{
+	color: white;
+}
+p.navbar-text a:hover{
+	color: white;
+	text-decoration: none;
+}
+h2{
+	font-family: Bookman;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: black;
+	font-size: 32px;
+	font-weight: bold;
+	justify-content: center;
+	display: inline-block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.carousel-inner{
+	margin-bottom: 30px;
+	background-color: red;
+	height: 30px;
+}
+
+ol{
+	color: red !important;
+}
+
+img{
+	font-family: Bookman;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	justify-content: center;
+	display: inline-block;
+	margin-bottom: 10px;
+	text-align: center;	
+}
+
+
+
+
