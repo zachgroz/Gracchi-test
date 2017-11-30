@@ -5,7 +5,7 @@ p.content {
 	text-align: center;
 	background: red;
 	color: black;
-	font-family: Bookman;
+	font-family: Helvetica;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
@@ -15,15 +15,15 @@ p.content {
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	font-family: Georgia;
+	font-family: Helvetica;
 	text-transform: uppercase;
 }
 li a{
     list-style-type: none;
 	font-size: 16px;
 	font-weight: bold;
-	color: white;
-	font-family: Georgia;
+	color: black;
+	font-family: Helvetica;
 	text-transform: uppercase;
 	width: 120px;
 	margin-left: 110px;
@@ -32,43 +32,44 @@ li a{
 }
 ul{
 	width: 100%;
-	background-color: black;
+	background-color: white;
 }
 ul.nav a:hover { 
 	color: white;
-	background-color: red !important; 
+	background-color: #72a6f7 !important; 
 }
 ul.nav a:focus{
 	color: white;
-	background-color: red !important;
+	background-color: #72a6f7 !important;
 }
 p.navbar-text{
-	font-family: Garamond, Georgia, serif;;
-	font-style: italic;
+	font-family: Helvetica;
 	letter-spacing: 2px;
-	color: white;
+	color: #72a6f7;
 	font-size: 64px;
 	font-weight: bold;
 	justify-content: center;
 	display: inline-block;
 	text-align: center;
-	margin-left: 500px;
+	margin-left: 400px;
+	text-transform: uppercase;
 }
 .navbar{
 	text-align: center;
 	display: inline-block;
-	background-color: red;
+	background-color: white;
 	border-bottom-color: black; 
 }
 .container{
-	margin-top: 200px;
+	margin-top: 150px;
+	margin-left: 70px;
 }
 p.content1{
 	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	font-family: Georgia;
+	font-family: Hevetica;
 	text-transform: uppercase;
 	margin-left: 200px;
 	background: red;
@@ -79,21 +80,21 @@ p.content2{
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	font-family: Georgia;
+	font-family: Helvetica;
 	text-transform: uppercase;
 	margin-right: 200px;
 	background: red;
 	padding: 45px;
 }
 a.title{
-	color: white;
+	color: #72a6f7;
 }
 p.navbar-text a:hover{
-	color: white;
+	color: #72a6f7;
 	text-decoration: none;
 }
 h2{
-	font-family: Bookman;
+	font-family: Helvetica;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: black;
@@ -106,8 +107,7 @@ h2{
 }
 .carousel-inner{
 	margin-bottom: 30px;
-	background-color: red;
-	height: 30px;
+	height: 500px;
 }
 
 ol{
@@ -115,7 +115,7 @@ ol{
 }
 
 img{
-	font-family: Bookman;
+	font-family: Helvetica;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: black;
@@ -125,6 +125,57 @@ img{
 	display: inline-block;
 	margin-bottom: 10px;
 	text-align: center;	
+}
+p{
+	font-family: Times New Roman;
+	color: black;
+	font-size: 15px;
+	display: inline-block;
+	width: 370px;
+	margin-top:10px;
+}
+
+h1{
+	font-family: Helvetica;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	justify-content: center;
+	display: inline-block;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+img.content3{
+	margin-left: -200px;
+	margin-top: -10px;
+
+}
+
+h1.content3{
+	width: 350px;
+	margin-left: -200px;
+}
+p.content3{
+	width: 350px;
+	margin-top:-2px;
+	margin-left: -200px;
+
+}
+img.content4{
+	margin-left: -80px;
+	margin-top: -10px;
+}
+
+h1.content4{
+	width: 350px;
+	margin-left: -100px;
+}
+p.content4{
+	width: 350px;
+	margin-top:-2px;
+	margin-left: -80px;
 }
 
 
