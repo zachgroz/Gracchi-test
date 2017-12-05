@@ -134,6 +134,52 @@ p{
 	width: 370px;
 	margin-top:10px;
 }
+<<<<<<< HEAD
+=======
+
+h1{
+	font-family: Helvetica;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	justify-content: center;
+	display: inline-block;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+img.content3{
+	margin-left: -200px;
+	margin-top: -10px;
+
+}
+
+h1.content3{
+	width: 350px;
+	margin-left: -200px;
+}
+p.content3{
+	width: 350px;
+	margin-top:-2px;
+	margin-left: -200px;
+
+}
+img.content4{
+	margin-left: -80px;
+	margin-top: -10px;
+}
+
+h1.content4{
+	width: 350px;
+	margin-left: -100px;
+}
+p.content4{
+	width: 350px;
+	margin-top:-2px;
+	margin-left: -80px;
+}
+>>>>>>> b1c8c9d50dd9610b4e9fec52c7a541b86e67b6a7
 
 h1{
 	font-family: Helvetica;
