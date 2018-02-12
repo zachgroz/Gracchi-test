@@ -23,7 +23,7 @@ li a{
 	font-size: 16px;
 	font-weight: bold;
 	color: black;
-	font-family: Helvetica;
+	font-family: "Arial Black", Gadget, sans-serif;
 	text-transform: uppercase;
 	width: 120px;
 	margin-left: 115px;
@@ -53,15 +53,16 @@ img.navbar-text{
 	text-align: center;
 	margin-left: 450px;
 	text-transform: uppercase;
+	margin-bottom:-10px;
 }
 .navbar{
 	text-align: center;
 	display: inline-block;
 	background-color: white;
-	border-bottom-color: black; 
+	border-bottom-color: black;
 }
 .container{
-	margin-top: 220px;
+	margin-top: 180px;
 	margin-left: 70px;
 }
 p.content1{
@@ -93,18 +94,6 @@ p.navbar-text a:hover{
 	color: #72a6f7;
 	text-decoration: none;
 }
-h2{
-	font-family: Helvetica;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: black;
-	font-size: 32px;
-	font-weight: bold;
-	justify-content: center;
-	display: inline-block;
-	margin-bottom: 20px;
-	text-align: center;
-}
 .carousel-inner{
 	margin-bottom: 30px;
 	height: 500px;
@@ -127,12 +116,13 @@ img{
 	text-align: center;	
 }
 p{
-	font-family: Times New Roman;
+	font-family: "Arial Black", Gadget, sans-serif;
 	color: black;
 	font-size: 15px;
 	display: inline-block;
 	width: 370px;
-	margin-top:10px;
+	text-align: center;
+	margin-left: -15px;
 }
 
 h1{
@@ -147,6 +137,17 @@ h1{
 	text-align: center;	
 }
 
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom:10px;
+    margin-left: 80px;
+    border-style: inset;
+    border-width: 1px;
+    color: black;
+    width: 75%;
+}
+
 img.content3{
 	margin-left: -200px;
 	margin-top: -10px;
@@ -155,7 +156,6 @@ img.content3{
 
 h1.content3{
 	width: 350px;
-	margin-left: -200px;
 }
 p.content3{
 	width: 350px;
@@ -164,26 +164,49 @@ p.content3{
 
 }
 img.content4{
-	margin-left: 125px;
-}
-
-h1.content4{
-	
-}
-p.content4{
+	margin-left: 80px;
+	padding-top: 10px;
 }
 
 h1{
-	font-family: Helvetica;
+	font-family: "Arial Black", Gadget, sans-serif;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	justify-content: center;
+	white-space: nowrap;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-left:85px;
+}
+
+h2.content5{
+	font-family: "Arial Black", Gadget, sans-serif;
 	letter-spacing: 1px;
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
 	justify-content: center;
-	display: inline-block;
-	margin-bottom: 20px;
-	text-align: center;	
+	white-space: nowrap;
+	margin-top:-5px;
+	text-align: center;
+	margin-right:80px;
 }
+h2.content6{
+	font-family: "Arial Black", Gadget, sans-serif;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	justify-content: center;
+	white-space: nowrap;
+	margin-top:-5px;
+	text-align: center;
+	margin-left:-90px;
+}
+
 
 img.content3{
 	margin-left: -200px;
@@ -200,4 +223,29 @@ p.content3{
 	margin-top:-2px;
 	margin-left: -200px;
 
+}
+.vl {
+    border-left: 3px solid grey;
+    height: 500px;
+}
+p.content5{
+	margin-left: -50px;
+}
+p.content6{
+	font-family: 'Cantata One', serif;
+	font-size: 15px;
+	width: 560px;
+	text-align: left;
+	margin-left: 80px;
+}
+a:hover{
+	text-decoration: none;
+}
+p.content7{
+	font-family: 'Cantata One', serif;
+	font-size: 13px;
+	width: 560px;
+	text-align: left;
+	margin-left: 80px;
+	margin-bottom:-10px;
 }
