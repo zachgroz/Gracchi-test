@@ -35,12 +35,11 @@ ul{
 	background-color: white;
 }
 ul.nav a:hover { 
-	color: white;
-	background-color: red !important; 
+	color: red;
+	background-color:white;
 }
 ul.nav a:focus{
-	color: white;
-	background-color: red !important;
+	color: red;
 }
 img.navbar-text{
 	font-family: Helvetica;
@@ -181,6 +180,20 @@ h1{
 	text-align: center;
 	margin-left:85px;
 }
+h2.content7{
+	font-family: "Arial Black", Gadget, sans-serif;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-left:70px;
+	width: 600px;
+}
+
 
 h2.content5{
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -241,6 +254,13 @@ p.content6{
 a:hover{
 	text-decoration: none;
 }
+a>p:hover{
+	color: red;
+}
+a>h2:hover{
+	color: red;
+}
+
 p.content7{
 	font-family: 'Cantata One', serif;
 	font-size: 13px;
@@ -248,4 +268,27 @@ p.content7{
 	text-align: left;
 	margin-left: 80px;
 	margin-bottom:-10px;
+}
+h1.content7{
+	margin-left: 285px;
+	padding-right: 500px;
+}
+h1.content8{
+	margin-left: 200px;
+	padding-right: 500px;
+}
+p.content8{
+	font-size: 20px;
+	margin-left: -80px;
+}
+p.content9{
+	font-size: 15px;
+	margin-left: -75px;
+}
+p.content10{
+	font-family: 'Cantata One', serif;
+	font-size: 15px;
+	width: 280px;
+	text-align: left;
+	margin-left:-30px;
 }
